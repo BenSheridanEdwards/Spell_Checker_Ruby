@@ -12,6 +12,7 @@ Word processor, that takes in a set of words and highlights any spelling mistake
 | "hello there" | "hello there" |
 | "hellooo there" | "~hellooo~ there" |
 | "hellooo thereee" | "~hellooo~ ~thereee~" |
+| "they're here!" | "they're here!" |
 
 ### Input 
 
