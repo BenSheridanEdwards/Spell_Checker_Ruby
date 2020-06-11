@@ -1,0 +1,2 @@
+class Spelling
+end
