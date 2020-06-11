@@ -16,6 +16,10 @@ describe Spelling do
       it "takes in two words 'hello there' that has the correct spelling and returns them" do
         expect(subject.checker('hello there')).to eq('hello there')
       end
+
+      it "takes in two words 'hellooo there' and highlights the hellooo as a misspelt word" do
+        expect(subject.checker('hellooo there')).to eq('~hellooo~ there')
+      end
     end
   end
 end

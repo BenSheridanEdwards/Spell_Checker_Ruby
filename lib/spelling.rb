@@ -1,7 +1,7 @@
 class Spelling
   def checker(string)
     word_array = string.split(' ')
-    
+
     word_array.each_with_index do |word, index|
       if ["hello", "there"].include?(word)
         break
