@@ -21,7 +21,7 @@ Word processor, that takes in a set of words and highlights any spelling mistake
 
 Highlight misspelt word: ~mispelled word~ 
 
-~ is a `Tildas`
+~ is a `Tilde`
 
 ### Edge Cases
 
