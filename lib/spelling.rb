@@ -3,7 +3,7 @@ class Spelling
     word_array = string.split(' ')
 
     word_array.each do |word|
-      break if ["hello", "there"].include?(word)
+      next if ["hello", "there", "world", "I", "am", "Ben"].include?(word)
       string = string.gsub("#{word}", "~#{word}~")
     end
     return string

@@ -25,5 +25,11 @@ describe Spelling do
         expect(subject.checker('hellooo thereee')).to eq('~hellooo~ ~thereee~')
       end 
     end
+
+    context "when a sentence is passed into the spell checker" do
+      it "takes in 'hello world i am ben' that has the correct spelling of all words and returns them" do
+        expect(subject.checker('hello world I am Ben')).to eq('hello world I am Ben')
+      end
+    end
   end
 end
